@@ -168,6 +168,26 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+header {
+  background-color: red;
+}
+header .navName {
+  display: flex;
+  justify-content: left;
+  font-family: 'Indie Flower', cursive;
+  font-style: bold;
+  padding: 40px 0;
+}
+header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-evenly;
+}
+header .topImg {
+  width: 100%;
+  height: auto;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
