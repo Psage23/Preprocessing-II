@@ -171,20 +171,28 @@ img {
 header {
   background-color: red;
 }
-header .navName {
+nav {
+  background-color: white;
+  display: flex;
+}
+nav .navName {
   display: flex;
   justify-content: left;
   font-family: 'Indie Flower', cursive;
   font-style: bold;
-  padding: 40px 0;
+  padding: 40px 10px;
+  font-size: 20px;
 }
-header ul {
+nav ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-content: space-evenly;
 }
-header .topImg {
+nav li {
+  text-decoration: none;
+}
+nav .topImg {
   width: 100%;
   height: auto;
 }
