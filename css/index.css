@@ -181,7 +181,7 @@ nav .navName {
   font-family: 'Indie Flower', cursive;
   font-style: bold;
   padding: 40px 10px;
-  font-size: 20px;
+  font-size: 40px;
 }
 nav ul {
   display: flex;
@@ -192,9 +192,22 @@ nav ul {
 nav li {
   text-decoration: none;
 }
-nav .topImg {
+.top {
+  width: 100%;
+}
+.top .topImg {
   width: 100%;
   height: auto;
+}
+.intro {
+  background-color: yellow;
+  width: 100%;
+}
+.intro h1 {
+  font-size: 200px;
+}
+.intro p {
+  text-align: left;
 }
 .footer {
   width: 100%;
