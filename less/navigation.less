@@ -3,10 +3,26 @@ nav {
     background-color: white;
     display: flex;
     justify-content: space-between;
+    width: 100%;
+
+    @media (max-width: 500px) {
+        nav {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }//closes nav media query
 
     .navName {
         width: 50%;
         padding: 10px 0 0;
+
+        @media (max-width: 500px){
+            .navName{
+                width: 90%;
+                text-align: center;
+            }
+        }
     }
 
     p {
@@ -69,3 +85,5 @@ nav {
         text-align: left;
     }//closes paragraph
 }//closes intro div
+
+

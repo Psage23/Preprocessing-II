@@ -172,10 +172,24 @@ nav {
   background-color: white;
   display: flex;
   justify-content: space-between;
+  width: 100%;
+}
+@media (max-width: 500px) {
+  nav nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 nav .navName {
   width: 50%;
   padding: 10px 0 0;
+}
+@media (max-width: 500px) {
+  nav .navName .navName {
+    width: 90%;
+    text-align: center;
+  }
 }
 nav p {
   display: flex;
