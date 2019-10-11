@@ -4,19 +4,10 @@ nav {
     display: flex;
     justify-content: space-between;
 
-    @media (max-width: 500px) {
-        nav {
-            flex-direction: column;
-            align-items: center;
-            background-color: yellow;
-        }
-    }//closes nav media query
-
     .navName {
         width: 50%;
         padding: 10px 0 0;
         }
-    
 
     p {
         display: flex;
@@ -79,4 +70,30 @@ nav {
     }//closes paragraph
 }//closes intro div
 
+@media (max-width: 500px){
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
+        p {
+            width: 100%;
+        }
+
+        ul {
+            width: 100%;
+            margin: 0;
+        }
+
+        li {
+            align-items: center;
+        }
+    }//closes the nav
+
+    .top {
+        width: 100%;
+        margin: 0;
+    }
+
+    
+}
