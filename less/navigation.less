@@ -1,48 +1,68 @@
 // Navigation Styles here
-header {
-    background-color: red;  
-}//closes header
-
 nav {
     background-color: white;
     display: flex;
+    justify-content: space-between;
 
     .navName {
+        width: 50%;
+        padding: 10px 0 0;
+    }
+
+    p {
         display: flex;
-        justify-content: left;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
         font-family: 'Indie Flower', cursive;
         font-style: bold;
-        padding: 40px 10px;
-        font-size: 40px;
-    }//closes .navName
+        font-size: 35px;
+        //background-color: yellow;
+    } 
 
     ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-content: space-evenly;
-    }//closes ul
+       display: flex;
+       justify-content: space-evenly;
+       align-items: center;
+       align-content: center;
+       margin: 1% 19% 1% 0;
+    } //closes ul
 
-    li {
+    li{
+        margin: 1% 5%;
+        width: 100px;
+        //background-color: yellow;
+    }
+
+    a {
+        display: flex;
+        justify-content: space-evenly;
         text-decoration: none;
-    }//closes li
-}//closes nav
+        color: @shark;
+        font-size: 13px;
+    } //closes li
+} //closes nav
 
 .top{
     width: 100%;
 
     .topImg {
-        width: 100%;
+        width: 60%;
         height: auto;
+        margin: 0 275px;
+        
     }//closes .topImg
 }//closes top div
 
 .intro {
-    background-color: yellow;
-    width: 100%;
+    //background-color: yellow;
+    width: 60%;
+    margin: 0 275px;
+     
 
     h1 {
-        font-size: 200px;
+        font-size: 50px;
+        padding: 20px 0;
     }//closes h1
 
     p{
