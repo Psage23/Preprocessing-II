@@ -204,16 +204,10 @@ nav a {
   color: #212529;
   font-size: 13px;
 }
-.top {
-  width: 100%;
-}
-.top .topImg {
-  width: 60%;
-  height: auto;
+.topImg {
   margin: 0 275px;
 }
 .intro {
-  width: 60%;
   margin: 0 275px;
 }
 .intro h1 {
@@ -239,9 +233,20 @@ nav a {
   nav li {
     align-items: center;
   }
-  .top {
+  .topImg {
     width: 100%;
     margin: 0;
+  }
+  .intro {
+    width: 90%;
+    margin: 0;
+  }
+  .intro h1 {
+    padding: 2% 3%;
+    font-size: 25px;
+  }
+  .intro p {
+    padding: 2% 3%;
   }
 }
 .footer {
@@ -313,12 +318,19 @@ nav a {
   height: 30px;
 }
 @media (max-width: 500px) {
+  .home .home {
+    width: 100%;
+    padding-right: 0;
+  }
   .home .content-section {
     flex-direction: column;
-    align-items: center;
+    width: 100%;
   }
   .home .text-content {
-    width: 90%;
+    width: 100%;
+  }
+  .home .text-content p {
+    width: 100%;
   }
   .home .content-pick {
     flex-direction: column;
