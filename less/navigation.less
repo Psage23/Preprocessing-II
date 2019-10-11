@@ -1,1 +1,108 @@
 // Navigation Styles here
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+
+    .navName {
+        width: 50%;
+        padding: 10px 0 0;
+        }
+
+    p {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        font-family: 'Indie Flower', cursive;
+        font-style: bold;
+        font-size: 35px;
+        //background-color: yellow;
+    } 
+
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: center;
+        margin: 1% 19% 1% 0;
+    } //closes ul
+
+    li{
+        margin: 1% 5%;
+        width: 100px;
+        //background-color: yellow;
+    }
+
+    a {
+        display: flex;
+        justify-content: space-evenly;
+        text-decoration: none;
+        color: @shark;
+        font-size: 13px;
+    } //closes li
+}//closes nav
+
+
+.topImg {
+        //width: 60%;
+        //height: auto;
+        margin: 0 275px;
+    }//closes .topImg
+
+
+.intro {
+    //background-color: yellow;
+    //width: 60%;
+    margin: 0 275px;
+
+
+    h1 {
+        font-size: 50px;
+        padding: 20px 0;
+    }//closes h1
+
+    p{
+        text-align: left;
+    }//closes paragraph
+}//closes intro div
+
+@media (max-width: 500px){
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            width: 100%;
+        }
+
+        ul {
+            width: 100%;
+            margin: 0;
+        }
+
+        li {
+            align-items: center;
+        }
+    }//closes the nav
+
+    .topImg {
+        width: 100%;
+        margin: 0;
+    }
+
+    .intro {
+        width: 90%;
+        margin: 0;
+
+        h1 {
+            padding: 2% 3%;
+            font-size: 25px;
+        }
+
+        p {
+            padding: 2% 3%;
+        }
+    }//closes intro
+}
